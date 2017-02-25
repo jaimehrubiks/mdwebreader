@@ -1,5 +1,5 @@
 # MarkDown Web Reader
-**mdwebreader** is a dead simple tool to preview a full proyect written in markdown (and simple text) in your browser. You can now write docs in markdown in multiple files and preview your full proyect either offline or served in a web server.
+**mdwebreader** is a dead simple tool to preview a full project written in markdown (and simple text) in your browser. You can now write docs in markdown in multiple files and preview your full project either offline or served in a web server.
 
 ## Instructions
 
@@ -12,9 +12,9 @@
 
     > git clone https://github.com/jaimehrubiks/mdwebreader.git myproject && cd myproject
 
-1. Deploy your proyect markdown files in the 'docs' (or any other) directory, or copy these files into your proyect root.
+1. Deploy your project markdown files in the 'docs' (or any other) directory, or copy these files into your project root.
 
-    > mv /path/proyectDir ./docs
+    > mv /path/projectDir ./docs
 
 1. Update index (each time tree changes)
 
@@ -27,7 +27,7 @@
 ## Notes
 1. By default, docs/readme.md file will be loaded if exists.
 If you choose not to name your project folder 'docs' but still load a default file, just edit index.html and find and replace 'docs' word by the one of your own
-2. Note that tree command is executed from inside the proyect folder and with it's name as an argument. You may want to use:
+2. Note that tree command is executed from inside the project folder and with it's name as an argument. You may want to use:
 
     > cd docs && tree -CH ./docs > ../tree.html && cd ../
 

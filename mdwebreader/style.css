@@ -1,65 +1,82 @@
-        html,body{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-        }
-        .content{
-            display: block;
-            position: relative;
-            width: 100%;
-            height: 100%;
-            background-color:white;
-        }
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
 
-        .preview{
-            display: block;
-            position: relative;
-            top: 0;
-            height: 100%;
-            padding: 20px;
-            margin-left: 300px;
-        }
-        .index{
-            display: block;
-            position: fixed;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 300px;
-            height: 100%;
-            outline: 2px solid gray;
-            background-color: #465158;
-            padding: 10px;
-            font-size: 12px;
-        }
-        .index a:link{
-            text-decoration: none;
-            color: white;
-        }
-        .index a:visited{
-            text-decoration: none;
-            color: white;
-        }
-        .index a:hover{
-            color:rgb(31.6%, 31.6%, 31.6%);
-        }
-        .index p{
-            color: white;
-        }
-        .index p{
-            color: #BCC1C3;
-        }
-        .index h1{
-            color: white;
-        }
-        .index .disabledAnchor a{
-            pointer-events: none !important;
-            cursor: default;
-            color:white;
-        }
-        .index .DIR{
-            pointer-events: none !important;
-            cursor: default !important;
-            color: rgb(100%, 96.9%, 53.8%) !important;
-        }
+.preview{
+    display: block;
+    position: relative;
+    top: 0;
+    height: 100%;
+    margin-left: 300px;
+}
+.md{
+    padding: 20px;
+    height: 110%;
+}
+.index{
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    height: 100%;
+    outline: 2px solid gray;
+    background-color: #465158;
+    padding: 10px;
+    font-size: 12px;
+}
+.index a:link{
+    text-decoration: none;
+    color: white;
+}
+.index a:visited{
+    text-decoration: none;
+    color: white;
+}
+.index a:hover{
+    color:rgb(31.6%, 31.6%, 31.6%);
+}
+.index p{
+    color: white;
+}
+.index p{
+    color: #BCC1C3;
+}
+.index h1{
+    color: white;
+}
+.index .disabledAnchor a{
+    pointer-events: none !important;
+    cursor: default;
+    color:white;
+}
+.index .DIR{
+    pointer-events: none !important;
+    cursor: default !important;
+    color: rgb(100%, 96.9%, 53.8%) !important;
+}
+
+iframe{
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100%;        /* Viewport-relative units */
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}

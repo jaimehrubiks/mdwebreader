@@ -1,5 +1,6 @@
 # MarkDown Web Reader
 **mdwebreader** is a dead simple tool to preview a full project written in markdown (and simple text) in your browser. You can now write docs in markdown in multiple files and preview your full project either offline or served in a web server.
+**Important Note:** Google chrome will not work in offline mode since it is not allowed to request local files for security reasons. Best solution is to use a browser that allowes it (safari) or serve a tiny web server.
 
 ## Instructions
 
@@ -23,6 +24,13 @@
     > **tree -CH ./docs > ../tree.html**
 
 1. Preview: Click on index.html file or serve all in a webserver.
+
+    An example of local webserver:
+
+    > npm install -g http-server
+
+    > http-server ./
+    
 
 ## Notes
 1. By default, docs/readme.md file will be loaded if exists.
